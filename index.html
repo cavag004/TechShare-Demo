@@ -1,0 +1,42 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<script>
+    $(document).ready(function(){
+ 		$('.sidenav').sidenav();
+ 	});
+
+</script>
+
+<nav class="green darken-4" style="padding:0px 10px; position: fixed;">
+	<div class="nav-wrapper">
+		<a href="#" class="brand-logo">TechDemo</a>
+
+		<a href="#" class="sidenav-trigger" data-target="mobile-view">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<ul class="right hide-on-med-and-down" >
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Download</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+<ul class="sidenav" id="mobile-view">
+	    <li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Download</a></li>
+			<li><a href="#">Contact Us</a></li>
+</ul>
