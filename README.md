@@ -18,7 +18,7 @@ Lastly, we'll include the Google Material icons stylesheet
 
 ### Navigation Bar Demo
 * To create a nav bar with Material design, we simply have to use the `<nav>` tag and then create a `<div>` inside with the class `nav-wrapper`.
-* Materialize provides a pretty decent Color palette for you to stylize with.
+* Materialize provides a pretty decent [Color palette](https://materializecss.com/color.html) for you to stylize with. We can change the color of the nav-bar by defining the class.
 * We can then define a logo for our toolbar by using the `<a>` tag and using the class `brand-logo`
 * We can now fill in this nav-bar with tabs by creating a list of items.
 * We can define where the items are located on the toolbar and its behavior by defining the lists's class, i.e `right hide-on-med-and-down`
